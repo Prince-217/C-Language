@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 
 main()
@@ -21,4 +22,29 @@ main()
 		}
 		printf("\n");
 	}
+=======
+#include<stdio.h>
+
+main()
+
+{
+	int i, j, k;
+	
+	for(i=1;i<=5;i++)
+	{
+		for(j=1;j<=i;j++)
+		{
+			printf("%d",j);
+		}
+		for(k=5;k>i;k--)
+		{
+			printf("  ");
+		}
+		for(j=i;j>=1;j--)
+		{
+			printf("%d",j);
+		}
+		printf("\n");
+	}
+>>>>>>> dc6dcf32c016ecc780fbf3bfaf3637b6ed8fc03e
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 
 main()
@@ -26,4 +27,34 @@ main()
 		}
 		printf("\n");
 	}
+=======
+#include<stdio.h>
+
+main()
+
+{
+	// Question-4...!!
+	
+	int i, j, k;
+	
+	for(i=1;i<=5;i++)
+	{
+		for(k=1;k<i;k++)
+		{
+			printf(" ");
+		}
+		for(j=5;j>=i;j--)
+		{
+			if(j % 2 == 0)
+			{
+				printf("0");
+			}
+			else
+			{
+				printf("1");
+			}
+		}
+		printf("\n");
+	}
+>>>>>>> dc6dcf32c016ecc780fbf3bfaf3637b6ed8fc03e
 }
